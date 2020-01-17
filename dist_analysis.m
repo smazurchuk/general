@@ -110,7 +110,7 @@ scatter(s,Rcma,'filled')
 legend('Euclidean','Standardized Euclidean','Mahalanobis','Cosine','Correlation','Spearman','Cross-Validated Mahalanobis')
 hold off
 
-% Note, standardized eurclidean is same as cosine for our measure
+% Note, standardized eurclidean is same as cosine for our toy example
 
 
 function R = mantel(a,b)
@@ -121,36 +121,6 @@ function R = mantel(a,b)
     end
     R = mean(c);
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-% Just for easier scrolling
-
 
 
 
